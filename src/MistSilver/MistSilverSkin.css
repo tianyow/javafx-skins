@@ -863,6 +863,19 @@
     -fx-background-color: rgb(76,81,86), linear-gradient(to bottom,rgb(200,202,207) 0%,rgb(180,182,187) 100%), linear-gradient(to bottom,rgb(237,239,245) 0%,rgb(211,214,217) 100%);
     -fx-background-insets: 1,2,3 3 3 2;    
 }
+.combo-box-base:editable:hover .arrow-button,
+.combo-box-base:editable:focused:pressed .arrow-button {
+    -fx-background-color: rgb(76,81,86),linear-gradient(to bottom,rgb(200,202,207) 0%,rgb(180,182,187) 100%), linear-gradient(to bottom,rgb(222,223,228) 0%,rgb(195,199,203) 100%);
+    -fx-background-insets: 1,2,3 3 3 2;
+}
+.combo-box-base:editable .arrow-button:hover{
+    -fx-background-color: rgb(76,81,86), linear-gradient(to bottom,rgb(200,202,207) 0%,rgb(180,182,187) 100%), linear-gradient(to bottom,rgb(237,239,245) 0%,rgb(211,214,217) 100%);
+    -fx-background-insets: 1,2,3 3 3 2;    
+}
+.combo-box-base:editable:focused .arrow-button:pressed{
+    -fx-background-color: rgb(76,81,86),rgb(201,211,220), linear-gradient(to bottom,rgb(209,221,229) 0%,rgb(207,219,228) 40%,rgb(207,219,228) 60%,rgb(213,224,233) 100%);
+    -fx-background-insets: 1,2,3 3 3 2;    
+}
 .combo-box-base:focused:pressed .arrow-button,
 .combo-box-base:focused:showing .arrow-button,
 .combo-box-base:focused:showing:hover .arrow-button {
